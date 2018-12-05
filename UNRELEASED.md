@@ -10,6 +10,7 @@ Use [the changelog guidelines](https://git.io/polaris-changelog-guidelines) to f
 - Added `primaryAction` prop to `SkeletonPage` ([#488](https://github.com/Shopify/polaris-react/pull/488))
 - Added support for press-and-hold to increment and decrement value in a type="number" `TextField` ([#573](https://github.com/Shopify/polaris-react/pull/573)) (thanks to [@andrewpye](https://github.com/andrewpye) for the [original issue](https://github.com/Shopify/polaris-react/issues/420))
 - Forced `Avatar` to fall back to `initials` when the image fails to load ([#712](https://github.com/Shopify/polaris-react/pull/712))
+- Added `evenWidth` prop to `Layout` component ([#724](https://github.com/Shopify/polaris-react/pull/724))
 
 ### Bug fixes
 

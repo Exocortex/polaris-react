@@ -1,5 +1,6 @@
 $secondary-basis: layout-width(secondary, min);
 $primary-basis: layout-width(primary, min);
+$even-width-basis: layout-width(equal-width, base);
 $relative-size: $primary-basis / $secondary-basis;
 
 .Layout {
@@ -23,6 +24,11 @@ $relative-size: $primary-basis / $secondary-basis;
 
 .Section-fullWidth {
   flex: 1 1 100%;
+}
+
+.Section-evenWidth {
+  flex: 1 1 $even-width-basis;
+  min-width: 0;
 }
 
 .AnnotatedSection {
