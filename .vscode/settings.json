@@ -8,23 +8,6 @@
     "typescript",
     "typescriptreact"
   ],
-  "files.exclude": {
-    "**/.DS_Store": true,
-    "**/.git": true,
-    "**/.hg": true,
-    "**/.svn": true,
-    "**/node_modules": true,
-    "build-esnext/": true,
-    "build-intermediate/": true,
-    "build/": true,
-    "docs/": true,
-    "esnext/": true,
-    "index.*": true,
-    "sandbox": true,
-    "styles.{css,scss}": true,
-    "styles/": true,
-    "types/": true
-  },
   "javascript.validate.enable": false,
   "jest.autoEnable": false,
   "prettier.eslintIntegration": true,
