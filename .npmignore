@@ -1,0 +1,13 @@
+*
+!package.json
+!README.md
+!LICENSE.md
+!CHANGELOG.md
+!esnext
+!styles
+!types
+!docs
+!index.js
+!index.es.js
+!styles.css
+!styles.scss
