@@ -26,6 +26,8 @@ export interface Props {
   children?: React.ReactNode;
   /** Visually hide the label */
   labelHidden?: boolean;
+  /** Class name for the root element */
+  className?: string;
 }
 
 export default function Labelled({
@@ -38,7 +40,7 @@ export default function Labelled({
   labelHidden,
   ...rest
 }: Props) {
-  const className = classNames(labelHidden && styles.hidden);
+  const className = classNames([labelHidden && styles.hidden, rest.className]);
 
   const actionMarkup = action ? buttonFrom(action, {plain: true}) : null;
 

@@ -102,6 +102,8 @@ export interface BaseProps {
   onFocus?(): void;
   /** Callback when focus is removed */
   onBlur?(): void;
+  /** Class name for the root element */
+  className?: string;
 }
 
 export interface NonMutuallyExclusiveProps extends BaseProps {}
@@ -290,6 +292,7 @@ export default class TextField extends React.PureComponent<Props, State> {
         action={labelAction}
         labelHidden={labelHidden}
         helpText={helpText}
+        className={this.props.className}
       >
         <Connected left={connectedLeft} right={connectedRight}>
           <div
